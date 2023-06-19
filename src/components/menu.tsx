@@ -5,27 +5,27 @@ function Menu() {
     return (
         <nav className="menu">
             <NavLink
-             to='/' 
+             to='menu_router/' 
              className={({isActive}) => classForItems(isActive)}
              >
                  Главная
             </NavLink>
 
-            <NavLink to='/drift' 
+            <NavLink to='menu_router/drift' 
             className={({isActive}) => classForItems(isActive)}
             >
                 Дрифт-такси
             </NavLink>
 
             <NavLink 
-            to='/timeattack' 
+            to='menu_router/timeattack' 
             className={({isActive}) => classForItems(isActive)}
             >
                 Time Attack
             </NavLink>
 
             <NavLink 
-            to='/forza' 
+            to='menu_router/forza' 
             className={({isActive}) => classForItems(isActive)}
             >
                 Forza Karting
